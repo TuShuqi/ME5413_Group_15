@@ -1,0 +1,8 @@
+prefix=/home/tu/Downloads/5413/project/ME5413_Final_Project/devel
+
+Name: costmap_prohibition_layer
+Description: Description of costmap_prohibition_layer
+Version: 0.0.5
+Cflags: -I/home/tu/Downloads/5413/project/ME5413_Final_Project/devel/include -I/home/tu/Downloads/5413/project/ME5413_Final_Project/src/costmap_prohibition_layer/include
+Libs: -L${prefix}/lib -lcostmap_prohibition_layer
+Requires: costmap_2d dynamic_reconfigure
